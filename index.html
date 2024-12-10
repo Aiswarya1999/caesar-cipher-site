@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption</title>
+</head>
+<body>
+    <h1>Text Encryption</h1>
+    <form id="encryptionForm">
+        <textarea id="text" placeholder="Enter text here"></textarea><br>
+        <select id="method">
+            <option value="caesar">Caesar Cipher</option>
+        </select><br>
+        <input type="number" id="shift" placeholder="Shift value (Caesar)" /><br>
+        <button type="submit">Encrypt</button>
+    </form>
+    <p>Encrypted Text: <span id="output"></span></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
